@@ -14,7 +14,8 @@ export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'about/about-details', component: AboutDetailsComponent }
+  { path: 'about/about-details', component: AboutDetailsComponent },
+  { path: 'lazyloading', loadChildren: 'app/lazyloading/lazyloading.module#LazyloadingModule' }
 ];
 
 @NgModule({
