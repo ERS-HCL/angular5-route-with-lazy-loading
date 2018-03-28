@@ -19,3 +19,5 @@ Download  or Clone the repository in your machine and run following command.
 
 ### Run server
     - ng serve
+    
+<!-- Lazy loading loads only what we need to use when first starting up the application. if user navigate to a new page, then the Lazy loading component for that page will load.-->
