@@ -83,6 +83,14 @@ export class LazyloadingListComponent implements OnInit {
 
 }
 ```
+
+In 'app-routing.module.ts',
+```javascript
+main route added the lazy loading route
+
+  { path: 'lazyloading', loadChildren: 'app/lazyloading/lazyloading.module#LazyloadingModule' }
+
+```
 In `lazyloading/lazyloading-list.component.html`,
 
 ```html
